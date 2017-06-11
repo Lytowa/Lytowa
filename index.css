@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+body{
+background-image:url(img/203.jpg);
+    background-size:cover;
+    font-family: "Bad Script", cursive;}
+label {color: midnightblue;
+    font-size: 15px;}
+h1{color: #fff;
+    text-shadow: #ccc 0 1px 0, #c9c9c9 0 2px 0, #bbb 0 3px 0, #b9b9b9 0 4px 0, #aaa 0 5px 0,rgba(0,0,0,.1) 0 6px 1px, rgba(0,0,0,.1) 0 0 5px, rgba(0,0,0,.3) 0 1px 3px, rgba(0,0,0,.15) 0 3px 5px, rgba(0,0,0,.2) 0 5px 10px, rgba(0,0,0,.2) 0 10px 10px, rgba(0,0,0,.1) 0 20px 20px;}
+h4{color: midnightblue;
+    font-size: 17px;
+    font-weight: bold;
+}
+.page-wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+  }
+
+.header {
+    height: 50px;
+}
+
+.footer {
+    height: 100px;
+}
+a {text-decoration: none;}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-left {
+    width: 20%;
+    background-color: palegoldenrod;
+    border-style: inset;
+    border-color: lightslategrey;
+    border-radius: 50px;
+    padding: 20px 20px;
+    border-width: 8px;
+    -webkit-box-shadow: inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    -moz-box-shadow:    inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    box-shadow:         inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+}
+.freid {
+    margin: 5px 25px;
+}
+.column-center {
+    width: 55%;
+    background-color: palegoldenrod;
+    border-style: inset;
+    border-color: lightslategrey;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border-width: 8px;
+    -webkit-box-shadow: inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    -moz-box-shadow:    inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    box-shadow:         inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+}
+
+.column-right {
+    width: 20%;
+    background-color: palegoldenrod;
+    border-style: inset;
+    border-color: lightslategrey;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border-width: 8px;
+    -webkit-box-shadow: inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    -moz-box-shadow:    inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    box-shadow:         inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+}
+
+.footer-buffer {
+    height: 100px;
+}
+.down {
+    width: 99%;
+    border-style: inset;
+    border-color: lightslategrey;
+    border-radius: 50px;
+    border-width: 8px;}
+.d {display: inline-block;
+    border-style: inset;
+    border-color: lightslategrey;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border-width: 8px;}
+.but {
+    margin: 5px 0 5px 60px;
+    }
+.button
+{
+    background-color: palegoldenrod;
+    display: inline-block;
+    padding: 1px 10px;
+    width: 20%;
+    text-align: center;
+    font-weight:bold;
+    font-size: 15px;
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 8px;
+    border-color: lightslategrey;
+    -webkit-box-shadow: inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    -moz-box-shadow:    inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    box-shadow:         inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);  }
+.fa { margin:5px 15px 5px 0 }
+.fa:hover{ transform: scale(2);}
+@keyframes phonerotate {
+from { transform:scale(1) }
+50% { transform: scale(2) }
+to { transform: scale(1) }
+}
+
+.fa-phone-square {
+animation: phonerotate 3s infinite ease-in-out;}
+
+img
+{  display: block;
+    border-radius: 100px;
+}
+
+.contacts
+{
+   margin: 20px 5px;  color: red;
+    font-size: 15px;
+}
+.pink {color: rgb(255, 246, 142);
+    font-size: 10px;
+    padding: 5px;
+    text-shadow: 0 1px 11px rgba(0, 0, 2, 0.66);
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+    background: rgb(103, 23, 195);
+    background: -moz-linear-gradient(100deg, rgb(103, 23, 195) 100%, rgb(145, 140, 255) 53%);
+    background: -webkit-linear-gradient(100deg, rgb(103, 23, 195) 100%, rgb(145, 140, 255) 53%);
+    background: -o-linear-gradient(100deg, rgb(103, 23, 195) 100%, rgb(145, 140, 255) 53%);
+    background: -ms-linear-gradient(100deg, rgb(103, 23, 195) 100%, rgb(145, 140, 255) 53%);
+    background: linear-gradient(10deg, rgb(103, 23, 195) 100%, rgb(145, 140, 255) 53%);
+    -webkit-box-shadow: 0px 3px 6px rgba(7, 57, 50, 0.66);
+    -moz-box-shadow:    0px 3px 6px rgba(7, 57, 50, 0.66);
+    box-shadow:         0px 3px 6px rgba(7, 57, 50, 0.66);
+}
+.mobile {margin-top: 50px;
+margin-left: 30px;
+color:green;}
+
+.menu-main {
+    list-style: none;
+    margin: 5px 0 5px;
+    padding: 15px 0 5px;
+    text-align: center;
+    background: palegoldenrod;
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 1px;
+    border-color: lightslategrey;
+    -webkit-box-shadow: inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    -moz-box-shadow:    inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+    box-shadow:         inset 1px 0px 8px 8px rgba(37, 122, 234, 0.41);
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+    content: "|";
+    color: #606060;
+    display: inline-block;
+    vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+    text-decoration: none;
+    font-family: "Bad Script", cursive;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 34px 0 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: lightslategrey;}
+.menu-main a:before,
+.menu-main a:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    left: 50%;
+    background: lightslategrey;
+    transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}
+@media (max-width: 550px) {
+    .menu-main {padding-top: 0;}
+    .menu-main li {display: block;}
+    .menu-main li:after {content: none;}
+    .menu-main a {
+        padding: 25px 0 20px;
+        margin: 0 30px;
+    }
+}
